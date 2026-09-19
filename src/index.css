@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=========================================================
+                          Food
+=========================================================*/
+
+.food-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 25% 4rem;
+}
+
+.food-card h1,
+.food-card h2 {
+  margin-bottom: 0;
+}
+
+.food-card img {
+  max-width: 80%;
+  border-radius: 7%;
+  margin: 1.5rem auto;
+}
+
+.food-card article {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+@media (max-width: 600px) {
+  .food-card {
+    margin: 0 10% 0;
+    margin-bottom: 3rem;
+  }
+  .food-card img {
+    max-width: 95%;
+  }
+  .food-card article {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}
