@@ -1,16 +1,82 @@
-# React + Vite
+# React Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project created from scratch to practice and improve my React development skills.
 
-Currently, two official plugins are available:
+The project contains a collection of small exercises and experiments. Each exercise focuses on a specific React concept or frontend development technique.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 About This Project
 
-## React Compiler
+This repository is part of my learning journey with React.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each exercise is organized as a separate page inside the `src/pages` directory. A navigation bar provides access to the different exercises.
 
-## Expanding the ESLint configuration
+The project is **built from scratch without following step-by-step YouTube tutorials**. Documentation, official resources, and general references may be used when needed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+```
+text
+src/
+├── assets/
+│   └── images/
+├── pages/
+│   ├── Food/
+│   │   ├── Food.jsx
+│   │   └── FoodPage.jsx
+│   │
+│   └── Color/
+│       ├── Color.jsx
+│       └── ColorPage.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+Each exercise has its own directory under src/pages.
+🧩 Exercises
+🍔 Food
+
+A React exercise focused on working with components, images, and page structure.
+🎨 Color
+A React exercise for practicing component structure and user interaction.
+More exercises will be added as I continue learning.
+
+## 🛠️ Technologies:
+-React
+-JavaScript
+-Vite
+-React Router
+-HTML
+-CSS
+
+## ▶️ Getting Started
+
+Clone the repository:
+```
+git clone https://github.com/Ali-Armani/react-built-from-scratch.git
+```
+Install dependencies:
+```
+npm install
+```
+Start the development server:
+```
+npm run dev
+```
+Then open the local URL provided by Vite, usually:
+```
+http://localhost:5173/
+```
+
+## 🎯 Purpose
+
+The main purpose of this repository is to:
+-Practice React fundamentals
+-Build projects from scratch
+-Improve problem-solving skills
+-Experiment with different React concepts
+-Keep track of my progress
+-Learn by building rather than only following tutorials
+
+## 📌 Note
+
+This repository is a learning project and will evolve over time as new concepts and exercises are added.
