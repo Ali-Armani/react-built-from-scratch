@@ -1,0 +1,29 @@
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+import FoodPage from "./pages/Food/FoodPage";
+import ColorPage from "./pages/Color/ColorPage";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <nav
+        style={{
+          display: "flex",
+          gap: "20px",
+          padding: "15px",
+          borderBottom: "1px solid #ccc",
+        }}
+      >
+        <Link to="/food">Food</Link>
+        <Link to="/color">Color</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/food" element={<FoodPage />} />
+        <Route path="/color" element={<ColorPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
