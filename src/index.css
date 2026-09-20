@@ -8,7 +8,7 @@ body {
                           Food
 =========================================================*/
 
-.food-card {
+.food-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -18,32 +18,32 @@ body {
   margin: 0 25% 4rem;
 }
 
-.food-card h1,
-.food-card h2 {
+.food-container h1,
+.food-container h2 {
   margin-bottom: 0;
 }
 
-.food-card img {
+.food-container img {
   max-width: 80%;
   border-radius: 7%;
   margin: 1.5rem auto;
 }
 
-.food-card article {
+.food-container article {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 1.4rem;
   line-height: 2rem;
 }
 
 @media (max-width: 600px) {
-  .food-card {
+  .food-container {
     margin: 0 10% 0;
     margin-bottom: 3rem;
   }
-  .food-card img {
+  .food-container img {
     max-width: 95%;
   }
-  .food-card article {
+  .food-container article {
     font-size: 1.2rem;
     line-height: 1.8rem;
   }

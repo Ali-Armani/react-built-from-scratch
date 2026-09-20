@@ -5,7 +5,7 @@ function Food() {
 
   return(
     <div>
-      <div className="food-card">
+      <div className="food-container">
         <h1>Food</h1>
         <h2>Healthy vs Unhealthy</h2>
         <img src={image} alt="healthy and unhealthy food picture" />
