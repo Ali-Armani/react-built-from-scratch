@@ -6,9 +6,11 @@ function Food() {
   return(
     <div>
       <div className="food-container">
-        <h1>Food</h1>
-        <h2>Healthy vs Unhealthy</h2>
-        <img src={image} alt="healthy and unhealthy food picture" />
+        <div className='food-card'>
+          <h1>Food</h1>
+          <h2>Healthy vs Unhealthy</h2>
+          <img src={image} alt="healthy and unhealthy food picture" />
+        </div>
         <article>
           The comparative analysis of healthy and unhealthy foods constitutes a central concern within contemporary nutritional science and public health discourse. Healthy foods, generally characterized by high nutrient density and minimal processing, supply essential micronutrients, dietary fiber, and phytochemicals that support physiological homeostasis and mitigate the risk of chronic diseases. Conversely, unhealthy foods, often defined by excessive added sugars, saturated fats, sodium, and artificial additives, tend to be energy-dense yet nutrient-poor, thereby contributing to metabolic dysregulation. Consequently, the distinction between these dietary categories is not merely gastronomic but profoundly consequential for individual and population health.
           <br /> <br />

@@ -18,12 +18,25 @@ body {
   margin: 0 25% 4rem;
 }
 
-.food-container h1,
-.food-container h2 {
+.food-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2.5rem auto 2rem;
+  border: 1px solid rgb(183, 183, 183);
+  border-radius: 2rem;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.food-card h1,
+.food-card h2 {
   margin-bottom: 0;
 }
 
-.food-container img {
+.food-card img {
   max-width: 80%;
   border-radius: 7%;
   margin: 1.5rem auto;
@@ -40,8 +53,9 @@ body {
     margin: 0 10% 0;
     margin-bottom: 3rem;
   }
-  .food-container img {
-    max-width: 95%;
+  .food-card img {
+    max-width: 88%;
+    border-radius: 10px;
   }
   .food-container article {
     font-size: 1.2rem;
