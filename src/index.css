@@ -48,6 +48,10 @@ body {
   line-height: 2rem;
 }
 
+.food-container article p {
+  text-indent: 1em;
+}
+
 @media (max-width: 600px) {
   .food-container {
     margin: 0 10% 0;
