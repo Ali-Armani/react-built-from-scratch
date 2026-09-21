@@ -14,7 +14,7 @@ function Student({ name = 'Guest', age = '0', isStudent = 'false' }) {
       </p>
 
       <p>
-        Education Status: {isStudent ? "Student" : "Not a Studen"}
+        Education Status: {isStudent ? "Student" : "NOT a Student"}
       </p>
     </div>
   );
