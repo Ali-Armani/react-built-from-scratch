@@ -53,6 +53,30 @@ body {
 }
 
 /*=========================================================
+                        Student
+=========================================================*/
+
+.student-container {
+  margin: 1.3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.05rem;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.student-name-p {
+  color: rgb(26, 96, 26);
+}
+
+.student-age-p {
+  color: rgb(42, 104, 124);
+}
+
+.student-boolean-p {
+  color: rgb(162, 94, 67);
+}
+
+/*=========================================================
                       Media Queries
 =========================================================*/
 

@@ -5,15 +5,15 @@ function Student({ name = 'Guest', age = '0', isStudent = 'false' }) {
 
   return(
     <div className='student-container'>
-      <p>
+      <p className='student-name-p'>
         Name: {name}
       </p>
 
-      <p>
+      <p className='student-age-p'>
         Age: {age}
       </p>
 
-      <p>
+      <p className='student-boolean-p'>
         Education Status: {isStudent ? "Student" : "NOT a Student"}
       </p>
     </div>
