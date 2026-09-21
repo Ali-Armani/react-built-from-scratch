@@ -77,6 +77,26 @@ body {
 }
 
 /*=========================================================
+                          Color
+=========================================================*/
+
+.color-psyc-container {
+  margin: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.color-psyc-color-p {
+  color: rgb(45, 45, 126);
+}
+
+.color-psyc-psyc-p {
+  color: rgb(142, 50, 50);
+}
+
+/*=========================================================
                       Media Queries
 =========================================================*/
 

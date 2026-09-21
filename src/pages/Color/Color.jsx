@@ -5,11 +5,11 @@ function Color({color='White', psyc='Neutral'}) {
 
   return(
     <div>
-      <p>
+      <p className="color-psyc-color-p">
         Color: {color}
       </p>
 
-      <p>
+      <p className="color-psyc-psyc-p">
         Psychological Effect: {psyc}
       </p>
     </div>
