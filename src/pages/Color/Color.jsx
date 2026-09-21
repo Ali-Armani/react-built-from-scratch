@@ -1,9 +1,24 @@
 
-function Color() {
+import PropTypes from "prop-types";
+
+function Color({color='White', psyc='Neutral'}) {
 
   return(
-    <>Color</>
-  )
+    <div>
+      <p>
+        Color: {color}
+      </p>
+
+      <p>
+        Psychological Effect: {psyc}
+      </p>
+    </div>
+  );
+}
+
+Color.PropTypes = {
+  color: PropTypes.string,
+  psyc: PropTypes.string,
 }
 
 export default Color;
