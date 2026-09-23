@@ -9,7 +9,8 @@ function List() {
                   {id: 6, name: 'Oranges', calories: '100'}];
 
   const listItems = fruits.map(Fruit => <li key = {Fruit.id}> 
-                                                  {Fruit.name}: {Fruit.calories}
+                                                  {Fruit.name}: &nbsp;
+                                                  <b>{Fruit.calories}</b>
                                                   </li>);
 
   return(
