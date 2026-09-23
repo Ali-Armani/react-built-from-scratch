@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function ConditionalRendering({isLoggedIn = false}) {
 
-  if (isLoggedIn = true) {
+  if (isLoggedIn === true) {
     return <h2>Welcome!</h2>
   }
   else {
