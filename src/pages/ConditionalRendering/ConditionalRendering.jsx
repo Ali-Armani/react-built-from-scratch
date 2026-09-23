@@ -11,7 +11,7 @@ function ConditionalRendering({isLoggedIn = false}) {
   }
 }
 
-ConditionalRendering.PropTypes = {
+ConditionalRendering.propTypes = {
   isLoggedIn: PropTypes.bool,
 }
 
