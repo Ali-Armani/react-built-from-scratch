@@ -23,8 +23,8 @@ function App() {
         <Link to="/student">Student</Link>
         <Link to="/props">Props</Link>
         <Link to="/conditionalRendering">ConditionalRendering</Link>
-      </nav>
         <Link to="/listPage">ListPage</Link>
+      </nav>
 
       <Routes>
         <Route path="/food" element={<FoodPage />} />
