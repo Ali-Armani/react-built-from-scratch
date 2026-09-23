@@ -5,6 +5,7 @@ import ColorPage from "./pages/Color/ColorPage";
 import StudentPage from "./pages/Student/StudentPage";
 import PropsPage from "./pages/Props/PropsPage";
 import ConditionalRenderingPage from "./pages/ConditionalRendering/ConditionalRenderingPage.jsx";
+import ListPage from "./pages/List/ListPage.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Link to="/props">Props</Link>
         <Link to="/conditionalRendering">ConditionalRendering</Link>
       </nav>
+        <Link to="/listPage">ListPage</Link>
 
       <Routes>
         <Route path="/food" element={<FoodPage />} />
@@ -30,6 +32,7 @@ function App() {
         <Route path="/student" element={<StudentPage />} />
         <Route path="/props" element={<PropsPage />} />
         <Route path="/conditionalRendering" element={<ConditionalRenderingPage />} />
+        <Route path="/listPage" element={<ListPage />} />
       </Routes>
     </BrowserRouter>
   );
