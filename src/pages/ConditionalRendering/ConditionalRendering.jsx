@@ -1,22 +1,18 @@
 
 import PropTypes from "prop-types";
 
-function ConditionalRendering() {
+function ConditionalRendering({isLoggedIn = false}) {
 
-  return(
-    <div>
-      if (isLoggedIn=true) {
-        <h2>Welcome to our Company.</h2>
-      }
-      else {
-        <h2>Please Log in.</h2>
-      }
-    </div>
-  );
+  if (isLoggedIn = true) {
+    return <h2>Welcome!</h2>
+  }
+  else {
+    return <h2>Please Login.</h2>
+  }
 }
 
 ConditionalRendering.PropTypes = {
-  isLoggedIn: true,
+  isLoggedIn: PropTypes.bool,
 }
 
 export default ConditionalRendering;
