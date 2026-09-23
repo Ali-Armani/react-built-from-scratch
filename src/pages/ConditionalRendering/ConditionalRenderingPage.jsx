@@ -4,7 +4,7 @@ import ConditionalRendering from "./ConditionalRendering.jsx";
 function ConditionalRenderingPage() {
 
   return(
-    <div>
+    <div className="conditional-rendering-div">
     <ConditionalRendering isLoggedIn = {true} username = 'Romeo' />
     <ConditionalRendering isLoggedIn = {0} username = 'Mike' />
     <ConditionalRendering isLoggedIn = {1} username = 'Robert' />
