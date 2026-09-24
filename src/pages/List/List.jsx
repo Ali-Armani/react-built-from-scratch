@@ -13,6 +13,8 @@ function List() {
                                                   <b>{Fruit.calories}</b>
                                                   </li>);
 
+// fruits.sort(); // SORT METHOD
+
   return(
     <><ol>{listItems}</ol></>
   );
